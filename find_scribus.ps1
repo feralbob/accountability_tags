@@ -1,0 +1,1 @@
+Get-ChildItem HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\* | % { Get-ItemProperty $_.PsPath } | Where-Object {$_.DisplayName -Like 'Scribus*'} | Select-Object -ExpandProperty DisplayIcon

@@ -10,24 +10,24 @@ This repository is a simple templated accountability tag system for small fire d
 
 ## Usage
 
-Edit the `NGFD.csv` with your favourite CSV editor such as Excel, to add the required details for the tags that need to be created.
+Edit the `tags_to_generate.csv` with your favourite CSV editor such as Excel, to add the required details for the tags that need to be created.
 
-| name       | number | role           | badge_colour | text_colour |
-| ---------- | ------ | -------------- | ------------ | ----------- |
-| Bob Shand  | 145    | Fire Attack    | Red          | White       |
-| Ms Support | 123    | Ground Support | Green        | White       |
-| Mr Safety  | 321    | Safety Officer | White        | Black       |
+| department              | name          | number | role           | badge_colour | text_colour |
+| ----------------------- | ------------- | ------ | -------------- | ------------ | ----------- |
+| Engine Company 55       | Steve Buscemi | 911    | Safety Officer | White        | Black       |
+| Pontypandy Fire Service | Samuel Jones  | 999    | Firefighter    | Red          | Black       |
+|                         |               |        |                |              |             |
 
-Double click the `generate_NGFD.bat` file - it will execute the required commands and generate `NGFD_tags.pdf`
+Double click the `generate_tags.bat` file - it will execute the required commands and generate `tags.pdf` in the `generated_tags` folder
 
 ![tags.png](docs/images/tags.png)
 
-Open the `NGFD_tags.pdf` in any PDF reader and Print it. Be sure to set the printer to print Double Sided
+Open the `tags.pdf` in any PDF reader and Print it. Be sure to set the printer to print Double Sided
 
 ![printerSettings.png](docs/images/printerSettings.png)
 
 ## Credits
 
-@feralbob - Bob Shand - [New Glasgow Fire Department, PE](https://www.facebook.com/www.ngfd.ca/)
+[@feralbob - Bob Shand](https://github.com/feralbob/) - [New Glasgow Fire Department, PE](https://www.facebook.com/www.ngfd.ca/)
 
-@kmac5 - Kevin MacPhail - [North River FIre Department, PE](http://nrfd.ca/)
+[@kmac5 - Kevin MacPhail](https://github.com/kmac5/) - [North River Fire Department, PE](http://nrfd.ca/)

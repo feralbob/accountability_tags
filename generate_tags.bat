@@ -3,4 +3,5 @@ for /f "delims=" %%a in ('powershell /noprofile /executionpolicy bypass /command
 @echo on
 "%var%" -g -ns -py .\scripts\ScribusGenerator-3.0\ScribusGeneratorCLI.py --outDir .\tmp --outName tags -m -c tags_to_generate.csv .\templates\tag.sla
 "%var%" -g -ns -py .\scripts\to-pdf\to-pdf.py -- tmp\tags.sla
-move /Y .\tmp\tags.pdf .\generated_tags
+if not exist "output" mkdir "output"
+move /Y .\tmp\tags.pdf .\output

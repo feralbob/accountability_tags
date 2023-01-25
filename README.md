@@ -8,7 +8,13 @@ This repository is a simple templated accountability tag system for small fire d
 
 2. Download the latest [accountability_tags release](https://github.com/feralbob/accountability_tags/releases)
 
-## Usage
+
+
+## Video Demo
+
+https://docs/videos/GeneratingTags.mp4
+
+## Detailed usage
 
 Edit the `tags_to_generate.csv` with your favourite CSV editor such as Excel, to add the required details for the tags that need to be created.
 

@@ -12,7 +12,7 @@ This repository is a simple templated accountability tag system for small fire d
 
 ## Video Demo
 
-https://docs/videos/GeneratingTags.mp4
+https://user-images.githubusercontent.com/8114/214458335-2cba82b1-8366-4a0a-a8f6-2e2a07f61d6a.mp4
 
 ## Detailed usage
 

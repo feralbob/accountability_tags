@@ -1,3 +1,7 @@
+# Deprecated - See [tag generator](https://github.com/feralbob/tag_generator) instead ###
+
+---
+
 # Accountability Tags
 
 This repository is a simple templated accountability tag system for small fire departments.
